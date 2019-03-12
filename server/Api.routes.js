@@ -1,28 +1,28 @@
-const express = require('express');
+// const express = require('express');
 
-const router = express.Router();
+// const router = express.Router();
 
-// Simulate server delayed response
-function send(res, data) {
-  setTimeout(() => {
-    res.send(data);
-  }, 500);
-}
+// // Simulate server delayed response
+// function send(res, data) {
+//   setTimeout(() => {
+//     res.send(data);
+//   }, 500);
+// }
 
-/**
- * Internal Api routes
- */
+// /**
+//  * Internal Api routes
+//  */
 
-// routs
-router.post(
-  '/',
-  (req, res) => send(res.status(200), { responseText: 'internal POST Tested' })
-);
+// // routs
+// router.post(
+//   '/',
+//   (req, res) => send(res.status(200), { responseText: 'internal POST Tested' })
+// );
 
-router.get(
-  '/',
-  (req, res) => send(res.status(200), { responseText: 'internal GET Tested' })
-);
+// router.get(
+//   '/',
+//   (req, res) => send(res.status(200), { responseText: 'internal GET Tested' })
+// );
 
 
-module.exports = router;
+// module.exports = router;
