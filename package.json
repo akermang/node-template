@@ -1,0 +1,17 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "Api.routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gal Akerman",
+  "license": "ISC",
+  "dependencies": {
+    "dependencies": "0.0.1",
+    "express": "^4.16.4",
+    "here": "0.0.2",
+    "listed": "^0.3.1"
+  }
+}
