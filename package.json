@@ -4,7 +4,8 @@
   "description": "test app",
   "main": "Api.routes.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w server/src/scss -o server/src/css"
   },
   "author": "Gal Akerman",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "dependencies": "0.0.1",
     "express": "^4.16.4",
     "here": "0.0.2",
-    "listed": "^0.3.1"
+    "listed": "^0.3.1",
+    "node-sass": "^4.11.0"
   }
 }
