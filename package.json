@@ -2,8 +2,9 @@
   "name": "node-test",
   "version": "1.0.0",
   "description": "test app",
-  "main": "Api.routes.js",
+  "main": "server/index",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass -w server/src/scss -o server/src/css"
   },
@@ -12,8 +13,10 @@
   "dependencies": {
     "dependencies": "0.0.1",
     "express": "^4.16.4",
+    "find-in-files": "^0.5.0",
     "here": "0.0.2",
     "listed": "^0.3.1",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10"
   }
 }
