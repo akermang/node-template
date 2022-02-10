@@ -16,7 +16,7 @@
     "find-in-files": "^0.5.0",
     "here": "0.0.2",
     "listed": "^0.3.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.18.10"
   }
 }
